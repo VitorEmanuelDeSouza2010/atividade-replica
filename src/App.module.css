@@ -6,11 +6,17 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    width: 100vw;
+    cursor: pointer;
 }
 
 .card{
     border: 2px solid rgba(128, 128, 128, 0.815);
     border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
 }
 
 .titles{
@@ -20,13 +26,26 @@
     flex-direction: column;
     gap: 10px;
     color: white;
-    padding: 10px;
+    height: 100px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.Icon{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    border-radius: 999px;
+    overflow: hidden;
+    border: 2px solid rgba(128, 128, 128, 0.815);
+    cursor: pointer;
 }
 
 .info{
-    height: 75px;
+    height: 140px;
     border-bottom: 2px solid rgba(128, 128, 128, 0.815);
     padding: 10px;
+    cursor: pointer;
 }
 
 .options{
@@ -34,4 +53,5 @@
     gap: 5px;
     align-items: center;
     padding: 10px;
+    cursor: pointer;
 }
